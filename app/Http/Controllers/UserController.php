@@ -26,7 +26,7 @@ class UserController extends Controller
         return response()->json([
             'status' => 'ok',
             'code' => 200,
-            'message' => ' records found',
+            'message' => 'Data sended successfuly',
             'data' => $users
         ], 200)->header('Content-Type', 'application/json');
     }
